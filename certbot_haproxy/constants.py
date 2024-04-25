@@ -109,7 +109,7 @@ CLI_DEFAULTS = {
     },
     "ubuntu": {
         '_min_version': '14.04',
-        '_max_version': '18.04',
+        '_max_version': '22.04',
         '14.04': CLI_DEFAULTS_DEBIAN_BASED_PRE_SYSTEMD_OS,
         '14.10': CLI_DEFAULTS_DEBIAN_BASED_PRE_SYSTEMD_OS,
         '15.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
@@ -120,7 +120,9 @@ CLI_DEFAULTS = {
         '17.10': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
         '18.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
         '18.10': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
-        '19.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS
+        '19.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
+        '20.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
+        '22.04': CLI_DEFAULTS_DEBIAN_BASED_SYSTEMD_OS,
     },
     "centos": {
         '_min_version': '7',
